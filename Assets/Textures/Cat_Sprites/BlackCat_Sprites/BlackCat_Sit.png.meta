@@ -1,0 +1,290 @@
+fileFormatVersion: 2
+guid: c64f3e7d86cef6048b1396f913d2b86d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BlackCat_Sit_0
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1000
+        width: 800
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2646915c88f02924689f6cd562fb6b77
+      internalID: 2105154859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackCat_Sit_1
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1000
+        width: 800
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6aa67f70909c2a49a5fb01f358c73a5
+      internalID: 1511298690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackCat_Sit_2
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 1000
+        width: 800
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f198af3efbcbb2a4fa71897f67dc3d88
+      internalID: -1211836415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackCat_Sit_3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 800
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791698e07a6c78c4da59d71168e4429f
+      internalID: -146532357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackCat_Sit_4
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 0
+        width: 800
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d107f6bed0083e4b8f13e4c74f7f98b
+      internalID: 1158401723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackCat_Sit_5
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 0
+        width: 800
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004002049dcb10444ab5606fbe5fd893
+      internalID: 734220230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BlackCat_Sit_5: 734220230
+      BlackCat_Sit_6: -315428013
+      BlackCat_Sit_13: -484910933
+      BlackCat_Sit_14: 310576754
+      BlackCat_Sit_0: 2105154859
+      BlackCat_Sit_17: -293489331
+      BlackCat_Sit_19: -1445569098
+      BlackCat_Sit_30: 1959016584
+      BlackCat_Sit_20: 1815217549
+      BlackCat_Sit_8: 253057109
+      BlackCat_Sit_2: -1211836415
+      BlackCat_Sit_29: -1935867979
+      BlackCat_Sit_12: 2066971885
+      BlackCat_Sit_32: 2142058396
+      BlackCat_Sit_4: 1158401723
+      BlackCat_Sit_10: -1552891480
+      BlackCat_Sit_3: -146532357
+      BlackCat_Sit_15: -1463810073
+      BlackCat_Sit_23: -2076999974
+      BlackCat_Sit_34: -607961590
+      BlackCat_Sit_18: -1499336754
+      BlackCat_Sit_28: 181585716
+      BlackCat_Sit_21: 904923540
+      BlackCat_Sit_16: -1165379260
+      BlackCat_Sit_31: 780187091
+      BlackCat_Sit_26: -819087254
+      BlackCat_Sit_22: 1754809122
+      BlackCat_Sit_33: -904132243
+      BlackCat_Sit_1: 1511298690
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
