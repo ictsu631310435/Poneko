@@ -50,6 +50,31 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
+--- !u!1101 &-6388642415272914815
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: Sleep
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: -2092099812593630420}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
 --- !u!1102 &-5050209012242641499
 AnimatorState:
   serializedVersion: 6
@@ -244,22 +269,22 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -5050209012242641499}
-    m_Position: {x: 460, y: 170, z: 0}
+    m_Position: {x: 610, y: 460, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 8772781928631684125}
     m_Position: {x: 300, y: 230, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -2803252550270788379}
-    m_Position: {x: 300, y: 320, z: 0}
+    m_Position: {x: 300, y: 310, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -3668583805298328541}
-    m_Position: {x: 550, y: 320, z: 0}
+    m_Position: {x: 550, y: 310, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -2092099812593630420}
-    m_Position: {x: 690, y: 230, z: 0}
+    m_Position: {x: 300, y: 470, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 8106430704200291655}
-    m_Position: {x: 300, y: 400, z: 0}
+    m_Position: {x: 300, y: 390, z: 0}
   m_ChildStateMachines:
   - serializedVersion: 1
     m_StateMachine: {fileID: -4181101562469528492}
@@ -275,12 +300,13 @@ AnimatorStateMachine:
   - {fileID: -3174883938685963734}
   - {fileID: -8781520630135783211}
   - {fileID: -8454848644213611377}
+  - {fileID: -6388642415272914815}
   m_EntryTransitions: []
   m_StateMachineTransitions:
   - first: {fileID: 3262005517130706152}
     second: []
   m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: 20, y: 290, z: 0}
+  m_AnyStatePosition: {x: 40, y: 350, z: 0}
   m_EntryPosition: {x: 40, y: 110, z: 0}
   m_ExitPosition: {x: 890, y: 140, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
@@ -361,6 +387,12 @@ AnimatorController:
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
   - m_Name: Angry
+    m_Type: 9
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: Sleep
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0

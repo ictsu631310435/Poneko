@@ -293,10 +293,10 @@ MonoBehaviour:
   angryFromPetting: 0.1
   angryHealthDrop: 5
   angryPettingSeconds: {x: 0.5, y: 3}
+  <SleepDurationRange>k__BackingField: {x: 10, y: 30}
   maxHunger: 100
   hungerRate: 0.002
   eatThreshold: 0.8
-  <EatDuration>k__BackingField: 10
   <EatDurationRange>k__BackingField: {x: 10, y: 30}
   <CurrentHealth>k__BackingField: 0
   <CurrentHunger>k__BackingField: 0

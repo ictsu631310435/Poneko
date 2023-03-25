@@ -15,14 +15,14 @@ public class Cat : MonoBehaviour
 
     public Vector2 angryPettingSeconds;
 
+    [field: SerializeField]
+    public Vector2 SleepDurationRange { get; private set; }
+
     public float maxHunger;
     public float hungerRate;
 
     [Range(0f, 1f)]
     public float eatThreshold;
-
-    [field: SerializeField]
-    public float EatDuration { get; private set; }
 
     [field: SerializeField]
     public Vector2 EatDurationRange { get; private set; }

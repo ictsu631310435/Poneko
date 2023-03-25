@@ -113,4 +113,9 @@ public class Draggable : MonoBehaviour
             this.dropPlace = null;
         }
     }
+
+    public void ReturnToInitPosition()
+    {
+        transform.position = initialPosition;
+    }
 }
