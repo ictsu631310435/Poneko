@@ -25,6 +25,9 @@ public class Cat : MonoBehaviour
     public float EatDuration { get; private set; }
 
     [field: SerializeField]
+    public Vector2 EatDurationRange { get; private set; }
+
+    [field: SerializeField]
     public float CurrentHealth { get; private set; }
 
     [field: SerializeField]

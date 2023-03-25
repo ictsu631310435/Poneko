@@ -289,7 +289,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   healthDropRate: 0.001
-  healthFromPetting: 0.5
+  healthFromPetting: 1
   angryFromPetting: 0.1
   angryHealthDrop: 5
   angryPettingSeconds: {x: 0.5, y: 3}
@@ -297,6 +297,7 @@ MonoBehaviour:
   hungerRate: 0.002
   eatThreshold: 0.8
   <EatDuration>k__BackingField: 10
+  <EatDurationRange>k__BackingField: {x: 10, y: 30}
   <CurrentHealth>k__BackingField: 0
   <CurrentHunger>k__BackingField: 0
   draggable: {fileID: 0}
